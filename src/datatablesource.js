@@ -20,12 +20,12 @@ export const userColumns = [
   },
 
   {
-    field: "age",
+    field: "userName",
     headerName: "Age",
     width: 100,
   },
   {
-    field: "status",
+    field: "password",
     headerName: "Status",
     width: 160,
     renderCell: (params) => {

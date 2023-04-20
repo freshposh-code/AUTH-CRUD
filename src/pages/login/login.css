@@ -1,0 +1,35 @@
+.input {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 1rem;
+}
+
+.form-input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 6px;
+}
+
+.submit {
+  margin-top: 4px;
+  padding: 7px;
+  border: none;
+  background: transparent;
+  background-color: brown;
+  color: aliceblue;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

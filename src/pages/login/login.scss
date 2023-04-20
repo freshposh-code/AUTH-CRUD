@@ -1,3 +1,49 @@
-.login{
-    
+.input{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+.border{
 }
+.box{
+ border: 1px solid black;
+display: flex;
+flex-direction: column;
+width: 400px;
+padding: 13px;
+
+
+@media screen and (max-width:500px) {
+    .box {
+        width: 100%;
+    }
+}
+
+
+.form-input{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 7px
+}
+
+.submit{
+    padding: 6px;
+    background: transparent;
+    background-color: blue;  
+    color: azure;
+    border: none;
+    transition: all ease-in-out 0.5s;
+
+}
+.submit:hover{
+    background-color: black;
+        color: azure;
+}
+}
+.error{
+    color: red;
+    margin: 0.5rem;
+}
+}
+
